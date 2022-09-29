@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vem/static/css/main.5ac8e7c4.css",
+    "main.js": "/vem/static/js/main.3df26262.js",
+    "static/media/about.jpg": "/vem/static/media/about.cfbf6af20dacbb999908.jpg",
+    "static/media/services-logo.jpg": "/vem/static/media/services-logo.12058d64aae252182771.jpg",
+    "static/media/ENCG_Logo.jpg": "/vem/static/media/ENCG_Logo.c03003d199d2a1398ae1.jpg",
+    "static/media/accueil.jpg": "/vem/static/media/accueil.c3a7742bc037234893ba.jpg",
+    "static/media/Poppins-Light.ttf": "/vem/static/media/Poppins-Light.7641a0f76ca9ef6c252c.ttf",
+    "static/media/ISGA_Logo.png": "/vem/static/media/ISGA_Logo.cf1ade981722cf18b067.png",
+    "static/media/contact.jpg": "/vem/static/media/contact.2cf930da52cb8f717384.jpg",
+    "static/media/vem-logo.jpeg": "/vem/static/media/vem-logo.2b7c9e52bbef104d8518.jpeg",
+    "index.html": "/vem/index.html",
+    "static/media/index.cjs": "/vem/static/media/index.cd351d7c31d0d3fccf96.cjs",
+    "main.5ac8e7c4.css.map": "/vem/static/css/main.5ac8e7c4.css.map",
+    "main.3df26262.js.map": "/vem/static/js/main.3df26262.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ac8e7c4.css",
+    "static/js/main.3df26262.js"
+  ]
+}
