@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vem/static/css/main.5ac8e7c4.css",
-    "main.js": "/vem/static/js/main.2d225c12.js",
+    "main.css": "/vem/static/css/main.6dc98249.css",
+    "main.js": "/vem/static/js/main.82b4b1e9.js",
     "static/media/about.jpg": "/vem/static/media/about.cfbf6af20dacbb999908.jpg",
     "static/media/services-logo.jpg": "/vem/static/media/services-logo.12058d64aae252182771.jpg",
     "static/media/ENCG_Logo.jpg": "/vem/static/media/ENCG_Logo.c03003d199d2a1398ae1.jpg",
@@ -12,11 +12,11 @@
     "static/media/vem-logo.jpeg": "/vem/static/media/vem-logo.2b7c9e52bbef104d8518.jpeg",
     "index.html": "/vem/index.html",
     "static/media/index.cjs": "/vem/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.5ac8e7c4.css.map": "/vem/static/css/main.5ac8e7c4.css.map",
-    "main.2d225c12.js.map": "/vem/static/js/main.2d225c12.js.map"
+    "main.6dc98249.css.map": "/vem/static/css/main.6dc98249.css.map",
+    "main.82b4b1e9.js.map": "/vem/static/js/main.82b4b1e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ac8e7c4.css",
-    "static/js/main.2d225c12.js"
+    "static/css/main.6dc98249.css",
+    "static/js/main.82b4b1e9.js"
   ]
 }
