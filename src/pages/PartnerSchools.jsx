@@ -16,13 +16,13 @@ export const PartnerSchoolsPage = () => {
     
     return (
       <div>
-          <div className='h-[300px] bg-gray-400 hidden p-5 mb-[100px]'>
-              <h1 className='text-5xl font-smibold text-blue-500 text-center'>Des experts a vos service</h1>
+          <div className=' flex justify-end  mb-[100px]'>
+              <h1 className='text-4xl font-semibold text-white p-5 text-center bg-orange-500'>Nos écoles partenaires</h1>
           </div>
-          <div className='grid mx-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-y-20 gap-x-40 '>
+          <div className='grid mx-2 md:mx-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-y-20 gap-x-40 '>
           {
               schools.map( (item , index) => (
-                  <div className='shadow-lg relative animate-[bottomToTop_1.5s_ease-in-out] left-to-right  mx-3' key={index}>
+                  <div className='shadow-lg relative animate-[bottomToTop_1.5s_ease-in-out] left-to-right  mx-1' key={index}>
                           <div className='relative' >
                               <div className='flex items-center justify-center h-full w-full absolute bg-gray-600/50'>
                                   <h1 className='text-white px-2 font-bold text-5xl'>{item.label}</h1>

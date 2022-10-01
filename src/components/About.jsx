@@ -7,7 +7,7 @@ export const About = () => {
     <div>
       <div className='h-[400px] bg-gray-400 -mt-10 gap-5 p-5 mb-[100px] flex flex-col items-center justify-center'>
                <h1 className='text-5xl font-bold'>Des experts pour vous accompagner</h1>
-               <p className='text-2xl'>dans vos procedures</p>
+               <p className='text-2xl hidden'>dans vos procedures</p>
       </div>
        <div className='md:flex items-center gap-5 justify-around   mx-3'>
                <div className='mt-7 w-full  md:w-1/2'>

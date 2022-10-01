@@ -9,7 +9,7 @@ const AppContainer = () => {
   return (
     <div className='mt-[70px]'>
         <Header />
-        <div className='mb-5 mt-[100px]'>
+        <div className='mb-5 mt-[90px]'>
             <Outlet />
         </div>
         <Footer />
