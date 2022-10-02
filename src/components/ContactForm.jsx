@@ -9,7 +9,7 @@ import { useState } from 'react'
 
 export const ContactForm = () => {
 
-  let [ inputs , setInputs] = useState({message: '' , email: '' , fullname: '' , phone: ''})
+  let [ inputs , setInputs] = useState({message: '' , subject: '' , email: '' , fullname: '' , phone: ''})
   let [message , setMessage] = useState({error: null , message: ''})
   let user = useSelector(getUser)
   const dispatch = useDispatch()
@@ -22,7 +22,7 @@ export const ContactForm = () => {
        try{
             let res = await dispatch(sendMessage(inputs))
             setMessage({error: false , message: "Message envoyé avec succès"})
-            setInputs({message: '' , email: '' , fullname: '' , phone: ''})
+            setInputs({message: '' , email: '' , fullname: '' , phone: '', subject: ''})
        }catch(e){
            console.log('err:', e.message)
            setMessage({error: true , message: `Message non envoyé [${e.message}]. Veuillez réessayer`})
@@ -48,6 +48,10 @@ export const ContactForm = () => {
                     <div className='my-5 block'>
                         <Label htmlFor='phone' value="Téléphone" />
                         <TextInput onChange={onInputChange}  id="phone" name="phone"  value={inputs.phone} placeholder='Téléphone' />
+                    </div>
+                    <div className='my-5 block'>
+                        <Label htmlFor='subject' value="Sujet message" />
+                        <TextInput onChange={onInputChange}  id="subject" name="subject"  value={inputs.subject} placeholder='Sujet. ex: info inscription' />
                     </div>
                     <div className='my-5 block'>
                         <Label htmlFor='message' value="Votre message" />

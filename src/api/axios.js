@@ -1,7 +1,7 @@
 import axios from "axios";
-
-export const serverUrl = "https://vem-back.herokuapp.com"   // process.env.NODE_ENV == 'production' ?  : 'http://localhost:3200'
-
+console.log('env:', process.env)
+export const serverUrl = window.location.origin.includes('localhost') ? 'http://localhost:3200' : "https://vem-back.herokuapp.com"
+console.log('serverUrl:', serverUrl)
 export const _axios = axios.create({
     baseURL: serverUrl
 })
