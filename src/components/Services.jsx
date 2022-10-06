@@ -34,7 +34,6 @@ const Services = () => {
                        </Button>
                        <h1 className='text-2xl font-bold ml-3'>Demande d'admission</h1>
                    </div>
-
                    <p className=' text-lg  service-description  text-slate-600'>
                          Nous vous accompagnons dans vos demandes d'admissions
                     </p>
