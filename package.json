@@ -1,6 +1,5 @@
 {
-  "homepage": "https://dodjidev.github.io/vem",
-  "name": "vem",
+  "name":"vem",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -32,7 +31,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"send": "git add . & git commit -m 'commit' & git push"
+	"send": "git add . & git commit -m 'commit' & git push & npm run deploy"
   },
   "eslintConfig": {
     "extends": [

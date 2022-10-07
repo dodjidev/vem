@@ -11,7 +11,7 @@ html , body {
 
 @layer base {
   .menu-link {
-    @apply text-slate-600 text-[17px] hover:text-blue-500 transition-all md:ml-2 mr-2 block md:inline my-3 md:my-0
+    @apply text-slate-600 text-[17px] hover:text-blue-500 transition-all md:ml-2 mr-2 block md:inline  cursor-pointer my-3 md:my-0
   }
 
   .btn {
