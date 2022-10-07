@@ -6,8 +6,9 @@ import Header from './shared/Header'
 import { Outlet } from 'react-router-dom'
 
 const AppContainer = () => {
+  
   return (
-    <div className='mt-[70px]'>
+    <div className='app-container relative' style={{minHeight: '100vh'}}>
         <Header />
         <div className='mb-5 mt-[90px]'>
             <Outlet />
@@ -15,6 +16,7 @@ const AppContainer = () => {
         <Footer />
     </div>
   )
+
 }
 
 export default AppContainer
