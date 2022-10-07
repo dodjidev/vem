@@ -3,11 +3,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-gray-900 p-3 min-h-[100px] top-[105%]  w-full relative'>
+    <div className='bg-gray-900 p-3 min-h-[100px] top-[105%]  w-full absolute '>
        <div className='gap-8 text-white grid grid-cols-1 md:grid-cols-3'>
             <div>
                 <h1 className='text-xl text-semi-bold text-blue-400'>Nous joindre</h1>
-
                 <div className='text-sm mt-3'>
                     <h4 className='my-1'>Tel: 05785699</h4>
                     <h4 className='my-1'>email: beni@test.ma</h4>
